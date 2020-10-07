@@ -1,0 +1,29 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-8">
+              <div class="card">
+                  <div class="card-header card-header-danger">
+                      <h4 class="card-title ">Procedure de chiffrement de donnees</h4>
+                  </div>
+                  <div class="card-body">
+                      <mat-form-field appearance="fill">
+                          <mat-label>Message clair</mat-label>
+                          <textarea matInput></textarea>
+                      </mat-form-field>
+
+                      <button mat-raised-button type="submit" class="btn btn-danger pull-right" (click)="soumettre()">chiffrer</button>
+                      <div class="clearfix"></div>
+
+                      <mat-form-field appearance="fill">
+                          <mat-label>Message chiffre</mat-label>
+                          <textarea matInput></textarea>
+                      </mat-form-field>
+
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</div>
